@@ -1,0 +1,146 @@
+{
+  "gameName": "TRASHED",
+  "version": "1.1",
+  "locations": [
+    {
+      "id": "loc_001",
+      "answer": "Eiffel Tower",
+      "category": "Landmark",
+      "clues": [
+        "Too many stairs, and the wifi at the top was terrible.",
+        "There is one overpriced restaurant and an 'observation deck' which is basically walking around two donuts.",
+        "The view isn't even that amazing.",
+        "Also, its just a big metal tower",
+        "It looks like rusty junk up close.",
+        "Not sure why the french are so proud of it."
+      ],
+      "source": "GripAdvisor"
+    },
+    {
+      "id": "loc_002",
+      "answer": "Grand Canyon",
+      "category": "National Park",
+      "clues": [
+        "Very disappointing 5 hour drive for a hole in the ground.",
+        "There was dirt EVERYWHERE and the hiking trail was too long!",
+        "It was just a pile of dirt and rocks.",
+        "I think you would have more fun at a park with a little sand box and a couple of rocks and one of those cut cactuses.",
+        "You really know how to make a hole in the ground in Arizona a hole in the ground in Arizona, a hole in the ground",
+        "Honestly its just a grand blandyon"
+      ],
+      "source": "Kelp"
+    },
+    {
+      "id": "loc_003",
+      "answer": "Great Wall of China",
+      "category": "Landmark",
+      "clues": [
+        "It wasn't really a great wall if anything it was just a wall",
+        "Also the amount of stairs was very tiring and at times uneven",
+        "Not recommended unless you live in a gym.",
+        "Can people stop saying you can see it from the space???",
+        "The thing is tinyyyy",
+        "Save yourself a trip to Asia and just look at a brich wall at home"
+      ],
+      "source": "SipAdvisor"
+    },
+    {
+      "id": "loc_004",
+      "answer": "Colosseum",
+      "category": "Landmark",
+      "clues": [
+        "Nothing interesting inside in my opinion.",
+        "The place was in ruins...",
+        "stadium seemed like it hadnt been used in years",
+        "It's literally just a bunch of broken rocks",
+        "So old none of the seats even remained",
+        "You'd think Rome would have fixed it up by now"
+      ],
+      "source": "whelp"
+    },
+    {
+      "id": "loc_005",
+      "answer": "Big Ben",
+      "category": "Landmark",
+      "clues": [
+        "I'm glad they blew it up in V For Vendetta.",
+        "It's just a big clock and the whole experience left me unsettled.",
+        "As I walked through the door I thought, 'I've seen this before in my childhood'.",
+        "I've seen bigger Lego towers!",
+        "Let me tell you we should rename it medium Ben.",
+        "It just tells the time in London, look at your watch instead."
+      ],
+      "source": "TripAdvisor"
+    },
+    {
+      "id": "loc_006",
+      "answer": "Stonehenge",
+      "category": "Landmark",
+      "clues": [
+        "Far too expensive to look at some rocks.",
+        "u better walk, we thought the stones are really huge but their heights is less then 2m.",
+        "not worth it, waste of money.",
+        "Yes it might hold your interest for a second or two...",
+        "...until you realise that at about the same time 2000 miles away, the Great Pyramids were being built.",
+        "Just a bunch of rocks in a field in England."
+      ],
+      "source": "TripAdvisor"
+    },
+    {
+      "id": "loc_007",
+      "answer": "Statue of Liberty",
+      "category": "Landmark",
+      "clues": [
+        "You take a boat ride just to see a green lady.",
+        "It is smaller than it looks on television",
+        "The lines are incredibly long to get inside a hollow copper shell.",
+        "She's just standing there, holding a book and a torch",
+        "Honestly, you can get a better view from the Staten Island Ferry for free.",
+        "It's basically a giant green paperweight in New York harbor."
+      ],
+      "source": "Aggregated Reviews"
+    },
+    {
+      "id": "loc_008",
+      "answer": "Taj Mahal",
+      "category": "Landmark",
+      "clues": [
+        "It's completely overrated and overcrowded.",
+        "Basically, it's just a really large fancy tomb",
+        "You can't even wear your shoes inside, they make you wear those silly shoe covers.",
+        "The white marble is blinding in the sun, bring sunglasses",
+        "If you've seen one mausoleum, you've seen them all.",
+        "Just a big white building"
+      ],
+      "source": "Aggregated Reviews"
+    },
+    {
+      "id": "loc_009",
+      "answer": "Mount Rushmore",
+      "category": "Monument",
+      "clues": [
+        "Drove hours for what looks like unfinished art.",
+        "The parking fee is outrageous for looking at a rock.",
+        "It's much smaller than you think it's going to be.",
+        "You can't even get close to the faces, you have to look from far away.",
+        "It's just four guys heads carved into a mountain in South Dakota.",
+        "Lincoln doesnt even look like Lincoln"
+      ],
+      "Source": "Dip.com"
+    },
+    {
+      "id": "loc_010",
+      "answer": "Leaning Tower of Pisa",
+      "category": "Landmark",
+      "clues": [
+        "It's surrounded by tourists taking the exact same photo.",
+        "The architecture is clearly faulty and unsafe",
+        "They want you to pay to walk up a slanted staircase",
+        "Honestly, it just looks like somebody messed up a construction project",
+        "It's a bell tower in Italy that can't even stand up straight.",
+        "I give it one star because it's broken."
+      ],
+      "source": "somebody idk"
+    }
+  ]
+}
