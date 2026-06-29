@@ -44,8 +44,26 @@
                     <span class="review-date" id="review-date"></span>
                 </div>
             </div>
+            <div class="review-source" id="source"></div>
         </header>
+        <div class="review-title" id="review-title">A review of an undisclosed location</div>
+        <div class="review-body" id="clues" role="log" aria-live="polite"></div>
     </article>
 </main>
+<footer class="interaction-zone">
+<div class="guess-dots" id="guess-dots" aria-label="Guesses remaining">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+</div>
+    <form class="guess-form" id="guess-form" autocomplete="off">
+        <div class="input-wrap" id="input-wrap">
+            <input id="guess-input" type="text" placeholder="Guess the location..." autocomplete="off" autocapitalize="words" spellcheck="false" aria-label="Guess the location"/>
+            <ul class="autocomplete" id="autocomplete" role="listbox" hidden></ul>
+        </div>
+        <button type="submit" class="submit-btn" id="submit-btn">Guess</button>
+    </form>
+    <div class="hint" id="hint">Type a landmark, then press Enter.</div>
+</footer>
+<script type="module" src="./js/main.js"></script>
 </body>
 </html>
