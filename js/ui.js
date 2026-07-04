@@ -34,7 +34,7 @@ export function fakeUsername(){
     return `${pick(FIRST_NAMES)} ${pick(LAST_INITIALS)}.`;
 }
 
-export function fakeDate(){ `return ${pick(MONTHS)} ${1+Math.floor(Math.random()*28)} ${2019+Math.floor(Math.random()*6)}`; }
+export function fakeDate(){ return `${pick(MONTHS)} ${1+Math.floor(Math.random()*28)} ${2019+Math.floor(Math.random()*6)}`; }
 
 export function renderHeaderStats() {
     els.streak.textContent=String(state.streak);

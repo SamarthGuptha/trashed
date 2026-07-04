@@ -2,11 +2,11 @@ let _locations= [];
 let _answers = [];
 
 export async function loadDataset() {
-    const res = await fetch("./data/datasets.json", {cache:"no-store"});
+    const res = await fetch("./data/dataset.json", {cache:"no-store"});
     if (!res.ok) throw new Error("Failed to load dataset");
     const data= await res.json();
     _locations = data.locations || [];
-    _answers = _locations.map((l) => l.answers);
+    _answers = _locations.map((l) => l.answer);
     return {gameName: data.gameName, version: data.version};
 }
 
@@ -22,7 +22,7 @@ export function shuffled() {
 }
 export function normalize(str) {
     return String(str || "")
-        .toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, "").replace(/\s+/g, "")
+        .toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, "").replace(/\s+/g, " ")
         .replace(/^the\s+/, "")
         .trim();
 }
