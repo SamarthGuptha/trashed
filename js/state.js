@@ -22,6 +22,19 @@ export function emit(event={}){
 
 export function loadPersisted(){
     try{
+        const raw= localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        const data= JSON.parse(raw);
+        state.highScore = data.highScore || 0;
+        state.streak= data.streak ||0;
+    }catch{}
+}
 
-    }
+export function persist(){
+    try{
+        localStorage.setItem(
+            STORAGE_KEY,
+            JSON.stringify({highScore: state.highScore, streak: state.streak})
+        );
+    } catch{}
 }
